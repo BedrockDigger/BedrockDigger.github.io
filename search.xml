@@ -5,7 +5,7 @@
     <url>/2021/09/26/world/</url>
     <content><![CDATA[<h1 id="Teal-Bot"><a href="#Teal-Bot" class="headerlink" title="Teal Bot"></a>Teal Bot</h1><h6 id="对了，你知道我为什么比较喜欢-teal-这个颜色吗？"><a href="#对了，你知道我为什么比较喜欢-teal-这个颜色吗？" class="headerlink" title="对了，你知道我为什么比较喜欢 teal 这个颜色吗？"></a>对了，你知道我为什么比较喜欢 teal 这个颜色吗？</h6><span id="more"></span>
 
-<p>Teal Bot 是 @<a href="mailto:&#101;&#x73;&#x74;&#x65;&#108;&#95;&#x64;&#x65;&#x5f;&#104;&#x69;&#x6b;&#x61;&#x72;&#105;&#64;&#x65;&#114;&#x69;&#99;&#97;&#46;&#109;&#111;&#101;">&#101;&#x73;&#x74;&#x65;&#108;&#95;&#x64;&#x65;&#x5f;&#104;&#x69;&#x6b;&#x61;&#x72;&#105;&#64;&#x65;&#114;&#x69;&#99;&#97;&#46;&#109;&#111;&#101;</a> 的还在开发中的的目前不知道作用是什么的机器人。</p>
+<p>Teal Bot 是 @<a href="mailto:&#101;&#115;&#116;&#x65;&#x6c;&#x5f;&#100;&#x65;&#x5f;&#x68;&#x69;&#107;&#97;&#114;&#105;&#64;&#x65;&#114;&#x69;&#x63;&#x61;&#x2e;&#109;&#111;&#101;">&#101;&#115;&#116;&#x65;&#x6c;&#x5f;&#100;&#x65;&#x5f;&#x68;&#x69;&#107;&#97;&#114;&#105;&#64;&#x65;&#114;&#x69;&#x63;&#x61;&#x2e;&#109;&#111;&#101;</a> 的还在开发中的的目前不知道作用是什么的机器人。</p>
 <p>什么？数据库？Teal 的核心是 setTimeout() 轮询 /doge～</p>
 <h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><p>Teal Bot 的大多数技能都可以通过发布一则格式如下的嘟文来召唤：</p>
 <p><code>@teal #技能 内容</code></p>
@@ -72,5 +72,15 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo systemctl <span class="built_in">enable</span> --now teal-bot.service</span><br></pre></td></tr></table></figure></li>
 </ol>
 ]]></content>
+      <categories>
+        <category>me</category>
+        <category>asd</category>
+        <category>asdas</category>
+        <category>asdas</category>
+      </categories>
+      <tags>
+        <tag>me</tag>
+        <tag>asd</tag>
+      </tags>
   </entry>
 </search>
