@@ -1,86 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>world</title>
-    <url>/2021/09/26/world/</url>
-    <content><![CDATA[<h1 id="Teal-Bot"><a href="#Teal-Bot" class="headerlink" title="Teal Bot"></a>Teal Bot</h1><h6 id="对了，你知道我为什么比较喜欢-teal-这个颜色吗？"><a href="#对了，你知道我为什么比较喜欢-teal-这个颜色吗？" class="headerlink" title="对了，你知道我为什么比较喜欢 teal 这个颜色吗？"></a>对了，你知道我为什么比较喜欢 teal 这个颜色吗？</h6><span id="more"></span>
+    <title>summer-of-bokaro</title>
+    <url>/2021/09/26/summer-of-bokaro/</url>
+    <content><![CDATA[<p>人生第一篇术曲相关杂谈。没错，新一代<a href="https://zh.wikipedia.org/zh-cn/%E6%88%91%E6%98%AF%E7%8C%AB">谜亭先生</a>开始音乐鉴赏啦。</p>
+<span id="more"></span>
 
-<p>Teal Bot 是 @<a href="mailto:&#101;&#115;&#116;&#x65;&#x6c;&#x5f;&#100;&#x65;&#x5f;&#x68;&#x69;&#107;&#97;&#114;&#105;&#64;&#x65;&#114;&#x69;&#x63;&#x61;&#x2e;&#109;&#111;&#101;">&#101;&#115;&#116;&#x65;&#x6c;&#x5f;&#100;&#x65;&#x5f;&#x68;&#x69;&#107;&#97;&#114;&#105;&#64;&#x65;&#114;&#x69;&#x63;&#x61;&#x2e;&#109;&#111;&#101;</a> 的还在开发中的的目前不知道作用是什么的机器人。</p>
-<p>什么？数据库？Teal 的核心是 setTimeout() 轮询 /doge～</p>
-<h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><p>Teal Bot 的大多数技能都可以通过发布一则格式如下的嘟文来召唤：</p>
-<p><code>@teal #技能 内容</code></p>
-<p>为了不污染标签环境，所有技能的名字都有个额外的字母“t”作开头。</p>
-<p>其中 <code>#技能</code> 目前可以是：</p>
-<p><code>#thelp</code>: 显示本则帮助</p>
-<p><code>#techo</code>: 回显你发给 Teal Bot 的嘟文</p>
-<p><code>#ttrans</code>: 翻译指定嘟文（目前使用百度翻译）</p>
-<p><code>#tshit</code>：众所周知的狗屁不通生成器。</p>
-<p>快乐聊天功能为了自然的体验不需要技能标签。（<del>目前使用青云客的<a href="https://api.qingyunke.com/">菲菲</a>聊天机器人</del> 目前使用腾讯云 NLP 闲聊 API）</p>
-<p>其中 <code>#ttrans</code>命令和聊天功能具体答复的内容既可以来自用<code>@teal</code>召唤机器人的那条嘟文，也可以来自用<code>@teal</code>召唤机器人的那条嘟文所回复的嘟文。<a href="https://github.com/BedrockDigger/teal-bot/blob/master/index.js#L294">两种情况下 Teal Bot 都能很优秀地处理该 @ 谁。</a></p>
-<p>它们各自的详细用法如下。</p>
-<h3 id="聊天"><a href="#聊天" class="headerlink" title="聊天"></a>聊天</h3><p>和 Teal Bot 一起快乐聊天。Teal Bot 会对 <code>@teal</code> 的嘟文或是无内容的 <code>@teal</code> 的嘟文所回复的嘟文的内容进行回答。 <del>目前使用青云客的<a href="https://api.qingyunke.com/">菲菲</a>聊天机器人。为什么？因为不要钱。</del> 目前使用腾讯云 NLP 闲聊 API。<code>tencentcloud-sdk-nodejs</code> SDK 真的是好东西，手搓 request 的难受谁知道（</p>
-<p><strong>使用示例</strong></p>
-<p><code>@teal 你叫什么呀？</code></p>
-<p><strong>示例回复</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@estel_de_hikari 亲，叫我菲菲就可以了</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>花和麦芽糖算是我的拿不拿入坑曲。当时的感觉是，突然遇到了一直在术圈没找到的某种风格。</p>
+</blockquote>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=400 height=86 src="//music.163.com/outchain/player?type=2&id=33367346&auto=0&height=66"></iframe>
 
-<h3 id="thelp"><a href="#thelp" class="headerlink" title="#thelp"></a>#thelp</h3><p>显示 Teal Bot 的使用帮助。</p>
-<p><strong>使用示例</strong></p>
-<p><code>@teal #thelp</code></p>
-<p><strong>示例回复</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@estel_de_hikari 我是 @estel_de_hikari 写的 bot。我的名字来自他喜欢的一个颜色。我可以当复读机、会在28种语言之间进行互译，还会陪你聊天。你可以在 https://github.com/BedrockDigger/teal-bot/blob/master/README.md 了解和我愉快玩耍的具体方法。</span><br><span class="line">我在300行的 JavaScript 里，等你回家哦。 :blobcat:</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>跳到辞音，有了suis的拿不再是那个<del>和裸足少女有迷之故事的</del>男人了。</p>
+</blockquote>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=400 height=86 src="//music.163.com/outchain/player?type=2&id=1357953768&auto=0&height=66"></iframe>
 
-<h3 id="techo"><a href="#techo" class="headerlink" title="#techo"></a>#techo</h3><p>回显你发给 Teal Bot 的嘟文。此功能其实主要用于调试。</p>
-<p><strong>使用示例</strong></p>
-<p><code>@teal #techo 你好呀！</code></p>
-<p><strong>示例回复</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@estel_de_hikari 刚才你对我说：</span><br><span class="line">你好呀！</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>猫猫好耶！</p>
+</blockquote>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=400 height=86 src="//music.163.com/outchain/player?type=2&id=1442466883&auto=0&height=66"></iframe>
 
-<h3 id="ttrans"><a href="#ttrans" class="headerlink" title="#ttrans"></a>#ttrans</h3><p>翻译调用<code>#ttrans</code>技能的嘟文的内容或其所回复的那则嘟文的内容。翻译的目标语言默认为中文。</p>
-<p><strong>使用示例</strong></p>
-<p>（以下嘟文回复了内容为“To be or not to be?”的嘟文。）</p>
-<p><code>@teal #ttrans To be or not to be? </code> </p>
-<p><strong>示例回复</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@estel_de_hikari 腾讯云机器翻译说，上面那段话的意思是：</span><br><span class="line">@estel_de_hikari 生存还是毁灭? (1/1)</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>某些拍好了婚纱照的人还被大家当预科生</p>
+</blockquote>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=420 height=86 src="//music.163.com/outchain/player?type=2&id=31830623&auto=0&height=66"></iframe>
 
-<p>如果要指定其他的目标语言，可以附上该语言的简写标签：</p>
-<p>zh（简体中文）、en（英语）、ja（日语）、ko（韩语）、fr（法语）、es（西班牙语）、it（意大利语）、de（德语）、tr（土耳其语）、ru（俄语）、pt（葡萄牙语）、vi（越南语）、id（印尼语）、th（泰语）、ms（马来语）。</p>
-<p><strong>注意语言间的翻译非正交；例如泰语只能译成简体中文和英语。</strong></p>
-<p><strong>使用示例</strong></p>
-<p>（以下嘟文回复了内容为“To be or not to be?”的嘟文。）</p>
-<p><code>@teal #ttrans #de To be or not to be? </code> </p>
-<p><strong>示例回复</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@estel_de_hikari 腾讯云机器翻译说，上面那段话的意思是：</span><br><span class="line">@estel_de_hikari Sein oder nicht sein? (1/1)</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>事实是开头的夏之施法来自另一个专辑</p>
+</blockquote>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=420 height=86 src="//music.163.com/outchain/player?type=2&id=503853905&auto=0&height=66"></iframe>
 
-<h3 id="tshit"><a href="#tshit" class="headerlink" title="#tshit"></a>#tshit</h3><p>根据主题生成一篇<a href="https://github.com/menzi11/BullshitGenerator">狗屁不通的文章</a>。</p>
-<p><strong>使用示例</strong></p>
-<p><code>@teal #tshit 非人情之美</code></p>
-<p><strong>示例回复</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@estel_de_hikari 你要的狗屁不通文章生成啦</span><br><span class="line">@estel_de_hikari 非人情之美因何而发生?既然如此，非人情之美，发生了会如何，不发生又会如何。 每个人都不得不面对这些问题。  在面对这种问题时， 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 我们都知道，只要有意义，那么就必须慎重考虑。 黑塞曾经说过，有勇气承担命运这才是英雄好汉。这不禁令我深思。 所谓非人情之美，关键是非人情之美需要如何写。 马尔顿曾经说过，坚强的信心，能使平凡的人做出惊人的事业。这启发了我， 我认为， 非人情之美，到底应该如何实现。 而这些并不是完全重要，更加重要的问题是， 了解清楚非人情之美到底是一种怎么样的存在，是解决一切问题的关键。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 问题的关键究竟为何? 非人情之美，到底应该如何实现。 裴斯泰洛齐曾经说过，今天应做的事没有做，明天再早也是耽误了。这不禁令我深思。 既然如此， 现在，解决非人情之美的问题，是非常非常重要的。 所以， 莫扎特在不经意间这样说过，谁和我一样用功，谁就会和我一样成功。这启发了我， 带着这 (1/6)</span><br></pre></td></tr></table></figure>
-
-<p>（后五则嘟文已省略）</p>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><ol>
-<li><p>克隆源码。依据源码的绝对路径更改 teal-bot.service。</p>
-</li>
-<li><p>复制 systemd unit file。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo cp teal-bot.service /etc/systemd/system/</span><br></pre></td></tr></table></figure></li>
-<li><p>填写 .env 里的环境变量，详情见 .env.example 中的注释。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ cp .env.example .env</span><br><span class="line">$ vim .env</span><br></pre></td></tr></table></figure></li>
-<li><p>安装依赖。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm i</span><br></pre></td></tr></table></figure></li>
-<li><p>Enable systemd unit 来开机自启。可选 <code>--now</code> 同时开始执行。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo systemctl <span class="built_in">enable</span> --now teal-bot.service</span><br></pre></td></tr></table></figure></li>
-</ol>
+<h1 id="夏是什么"><a href="#夏是什么" class="headerlink" title="夏是什么"></a>夏是什么</h1><p>这个问题问得好。知人论世，去萌娘了，告辞（</p>
+<p><strong>第一大坑已出现</strong></p>
 ]]></content>
       <categories>
-        <category>me</category>
-        <category>asd</category>
-        <category>asdas</category>
-        <category>asdas</category>
+        <category>随便写点</category>
+        <category>一窍不通</category>
       </categories>
       <tags>
-        <tag>me</tag>
-        <tag>asd</tag>
+        <tag>n-buna</tag>
+        <tag>Orangestar</tag>
+        <tag>Luna*</tag>
+        <tag>ボカロ以外</tag>
+        <tag>夏</tag>
       </tags>
   </entry>
 </search>
