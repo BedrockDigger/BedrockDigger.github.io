@@ -47,7 +47,7 @@
       </tags>
   </entry>
   <entry>
-    <title>when-async-await</title>
+    <title>async/await 到底该何时用？</title>
     <url>/2021/09/26/when-async-await/</url>
     <content><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>众所周知，JabaScript 的异步 API 已经迭代三代了。<code>async/await</code> 语法糖它是如此地香<del>，以至于 Dart 改过去 <code>Promise</code> 都变 <code>Future</code> 了它名字原封不动</del>。</p>
 <span id="more"></span>
